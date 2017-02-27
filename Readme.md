@@ -1,10 +1,4 @@
 # Data Visualization Challenge using R
-<a href = "https://lovetoken.github.io">lovetoken</a>  
-`r Sys.Date()`  
-
-<style type="text/css">@import url("https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css")</style><br>
-
-
 
 감명깊었던 데이터 시각화 결과물을 모아놓고 직접 R을 통해 시각화를 구현을 도전하는 곳 입니다.
 
