@@ -32,7 +32,7 @@ opts_chunk$set(fig.path = "output/figure/", fig.align = "center", out.width = "8
 
 ## Sankey diagram
 
-> [Histograms, Boxes and Whiskers](http://blog.threestory.com/wordpress/topics/data-visualization) 중 
+> blog.threestory - [Histograms, Boxes and Whiskers](http://blog.threestory.com/wordpress/topics/data-visualization) 중 
 
 <center><img src="image/fw_branches.png" width="80%"></center>
 
@@ -48,7 +48,7 @@ opts_chunk$set(fig.path = "output/figure/", fig.align = "center", out.width = "8
 
 ## Hierarchical clustering on the factor map
 
-> [PCA – hierarchical tree – partition: Why do we need to choose for visualizing data?](https://www.r-bloggers.com/pca-hierarchical-tree-partition-why-do-we-need-to-choose-for-visualizing-data/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+RBloggers+%28R+bloggers%29) 중
+> r-bloggers - [PCA hierarchical tree partition: Why do we need to choose for visualizing data?](https://www.r-bloggers.com/pca-hierarchical-tree-partition-why-do-we-need-to-choose-for-visualizing-data/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+RBloggers+%28R+bloggers%29) 중
 
 <center><img src="image/arbre_temperature.png" width="80%"></center>
 

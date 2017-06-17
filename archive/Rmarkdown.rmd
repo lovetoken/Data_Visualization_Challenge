@@ -5,18 +5,31 @@ date: "`r Sys.Date()`"
 output: 
   html_document:
     fig_height: 6
+    theme: yeti
     toc: yes
     toc_depth: 3
     toc_float: yes
     keep_md: yes
 ---
 
-<style type="text/css">@import url("https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css")</style><br>
-
-```{r env, echo=FALSE, warning=FALSE, message=FALSE}
+```{r env, echo = F, warning = F, message = F}
 ## attach library
-pacman::p_load("useful.lovetoken", "knitr", "dplyr", "ggplot2", "data.table",
-               "FactoMineR")
+pacman::p_load("knitr", "tidyverse", "ggplot2", "data.table")
 opts_chunk$set(fig.path = "output/figure/", fig.align = "center", out.width = "80%", 
                warning = F, message = F)
+```
+
+<br><br>
+
+## Rose plot 
+
+### Using ggplot2 package
+
+```{r}
+d <- data.frame(Angle = 0:35*10, Rate = abs(rnorm(36)))
+
+ggplot(d, aes(x = Angle, y = Rate)) +
+  coord_polar(theta = "x", start = -pi/36) +
+  geom_bar(stat = "identity") +
+  scale_x_continuous(breaks = seq(0, 360, 30))
 ```
